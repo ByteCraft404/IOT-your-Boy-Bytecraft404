@@ -1,7 +1,8 @@
 // Centralized API configuration
 export const API_CONFIG = {
-  BASE_URL: 'http://localhost:3001',
-  WEBSOCKET_URL: 'http://localhost:3001',
+  BASE_URL: 'https://bytecraftiot-backend.onrender.com',
+  WEBSOCKET_URL: 'https://bytecraftiot-backend.onrender.com',
+
   ENDPOINTS: {
     // Data endpoints
     SENSOR_DATA: '/api/data',
