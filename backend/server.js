@@ -67,6 +67,13 @@ app.get('/api/health', (req, res) => {
   });
 });
 
+
+// Root deployment confirmation route
+app.get('/', (req, res) => {
+  res.send(' AgriPulse Backend is deployed and running!');
+});
+
+
 // 404 handler
 app.use('*', (req, res) => {
   res.status(404).json({ 
